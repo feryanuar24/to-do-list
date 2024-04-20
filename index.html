@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="p-all">
+      <div class="head">
+        <div>
+          <h2 class="name">Hey Fery Your's</h2>
+          <h1>To-do's</h1>
+        </div>
+        <div class="save" onclick="save()">Save</div>
+      </div>
+
+      <ul class="list" id="list">
+        
+      </ul>
+
+      <div class="relative">
+        <button class="button" onclick="add()">+ Add</button>
+        <div class="form" id="form">
+          <input type="text" placeholder="Todo Name" class="input" id="input" />
+          <div class="flex">
+            <button class="ok" onclick="ok()">Ok</button>
+            <button class="cancel" onclick="cancel()">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
